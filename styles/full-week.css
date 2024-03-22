@@ -1,0 +1,65 @@
+header {
+    margin-bottom: 62px;
+}
+
+h1 {
+    font-size: 48px;
+    color: rgb(71, 62, 62);
+    margin: 0;
+}
+
+#description {
+    margin: 12px 0;
+}
+
+a {
+    background-color: rgb(167,1,78);
+    color:white;
+    border: 1px solid chocolate;
+    border-radius: 40px;
+    font-size: 24px;
+    padding: 12px 48px;
+    display: inline-block; /*inline 특징(한 행 차지X)+block특징(위아래 패딩 추가)*/
+    margin: 0;
+}
+
+a:hover{
+    text-decoration: none;
+    background-color: rgb(180,12,90);
+}
+
+ol { /*text가 아니므로 중앙정렬이 적용되지 않았다.*/
+    list-style: none;
+    width: 500px;
+    margin: 36px auto 0 auto; /*왼쪽, 오른쪽에 auto로 같은 값=>중앙정렬*/
+    padding: 0; /*default padding이 40으로 되어있었기 때문에 제거해서 진짜 중앙에 위치하도록함*/
+}
+
+li {
+    background-color: rgb(223, 136, 124);
+    border-radius: 6px;
+    margin: 32px;
+    padding: 16px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2); /*옆 밑 흐리게 색깔 */
+}
+
+h2 {
+    color: rgb(78,13,5);
+    font-family: 'Fira Mono',sans-serif;
+}
+
+main p {
+    margin: 12px;
+    color: rgb(71, 29, 22);
+
+}
+
+.highlight-goal {
+    background-color: rgb(245, 90, 70);
+}
+
+/* 
+- inheritence
+- cascading: 여러 개의 속성들이 있을 때,위에서 아래로(가장 최근것으로) 덮어써진다.(계단식 상속) 
+- specificity **이게 제일 우세
+*/

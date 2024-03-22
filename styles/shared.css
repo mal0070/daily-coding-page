@@ -1,0 +1,24 @@
+body{
+    text-align: center;/*부모 요소에 적용 -> 하위 요소들(text)이 center적용된다.*/
+    background-color:rgb(233, 215, 207);
+    color: rgb(83,75,75);
+}
+
+h1 {
+    font-family: 'Fira Mono',sans-serif; /*외부에서 가져온 글꼴은 ' ' / 폴백폰트: 글꼴을 가져오지 못했을 시*/
+    color: cadetblue;
+}
+
+p {
+    font-family: 'Bruno Ace SC';
+}
+
+a { /*부모 속성 색깔이 상속되지 않음->브라우저에서 상속하는 디폴트 색깔이 지정되어 있음 */
+    text-decoration: none;
+    color: rgb(167, 1, 78);
+    font-family: 'Bruno Ace SC';
+}
+
+a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,18 @@
+body{
+    margin: 50px; /*shared.css + 이 코드가 병합됨 */
+}
+
+img { /*image도 text로 취급되어 text-align 적용됨*/
+    width: 200px ;
+    height: 200px;
+    border-radius: 100px; /*weight와 height의 50%로 하면 완벽한 원형*/
+}
+
+
+
+#todays-challenge {
+    color: rgb(170, 96, 83);
+    font-weight: bold;
+    font-size: 48px;
+}
+
