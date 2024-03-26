@@ -59,7 +59,7 @@ main p {
 }
 
 /* 
-- inheritence
+- inheritence: width, height 같은 속성은 상속되지 않음
 - cascading: 여러 개의 속성들이 있을 때,위에서 아래로(가장 최근것으로) 덮어써진다.(계단식 상속) 
 - specificity **이게 제일 우세
 */

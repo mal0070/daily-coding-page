@@ -2,6 +2,7 @@ body{
     text-align: center;/*부모 요소에 적용 -> 하위 요소들(text)이 center적용된다.*/
     background-color:rgb(233, 215, 207);
     color: rgb(83,75,75);
+    margin: 50px; 
 }
 
 h1 {
@@ -11,6 +12,7 @@ h1 {
 
 p {
     font-family: 'Bruno Ace SC';
+    font-size: 25px;
 }
 
 a { /*부모 속성 색깔이 상속되지 않음->브라우저에서 상속하는 디폴트 색깔이 지정되어 있음 */
